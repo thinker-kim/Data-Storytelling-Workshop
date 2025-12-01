@@ -1,6 +1,34 @@
 """
 Climate Data Explorer - Interactive Dashboard
 Built with Streamlit for a Data Storytelling Workshop
+
+----------------------------------------------------------------------
+HOW TO DEPLOY THIS APP ON share.streamlit.io
+----------------------------------------------------------------------
+
+1. Push this file (app.py) and the data folder (data/...) to your GitHub repo.
+   Example repository structure:
+       Data-Storytelling-Workshop/
+           ├── app.py
+           ├── data/
+           │     └── ddbb_surface_temperature_countries.csv
+           └── other workshop files...
+
+2. Go to: https://share.streamlit.io/
+   Make sure you are logged in with your GitHub account (thinker-kim).
+
+3. Click “My apps” → “New app”.
+
+4. Configure the following:
+       Repository: thinker-kim/Data-Storytelling-Workshop
+       Branch: main
+       Main file path: app.py
+
+5. Click “Deploy”.
+   Streamlit will build the app and give you a public URL.
+   You can share this URL during your workshop.
+
+----------------------------------------------------------------------
 """
 
 import streamlit as st
