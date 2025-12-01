@@ -80,8 +80,8 @@ Data provided by [Berkeley Earth Surface Temperature Study](https://berkeleyeart
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/climate-workshop.git
-cd climate-workshop
+git clone https://github.com/thinker-kim/Data-Storytelling-Workshop.git
+cd Data-Storytelling-Workshop
 
 python -m venv venv
 source venv/bin/activate
@@ -95,7 +95,7 @@ streamlit run app.py
 ## Project Structure
 
 ```
-climate-workshop/
+Data-Storytelling-Workshop/
 ├── DAY1_TUTORIAL.ipynb
 ├── DAY2_TUTORIAL.ipynb
 ├── app.py
