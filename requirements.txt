@@ -1,0 +1,16 @@
+# Data Storytelling Workshop - Requirements
+# Python 3.8+
+
+# Core Dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+altair>=5.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional: For Jupyter notebooks (Day 1 & Day 2 tutorials)
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Data visualization support
+vega-datasets>=0.9.0
